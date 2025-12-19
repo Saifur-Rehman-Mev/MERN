@@ -99,9 +99,37 @@
 // })
 // console.log(even);
 
-let num = [1,2,3,4,5,6,7,8,9,10]
+// let num = [1,2,3,4,5,6,7,8,9,10]
 
-let reduce = num.reduce((acc,el)=> {
-    return acc+el;
+// let reduce = num.reduce((acc,el)=> {
+//     return acc+el;
+// })
+// console.log(reduce);
+
+
+// let num = [1,2,3,4,5];
+// let newNum = num.reduce((acc,val) =>{
+//     return acc+val });
+// console.log(newNum);
+
+// let fruit = ["mango","apple","pineapple"];
+// fruit.push("banana");
+// fruit.unshift("melon");
+// fruit.splice(2,1,"guava")
+// console.log(fruit);
+
+// let square = num.map((num)=> {
+//     return num*num
+// })
+// console.log(square);
+
+let num = [1,2,3,4,5,6,7,8,9,10];
+let mynum = []
+let even = num.filter((num)=> {
+    if(num%2==0){
+         mynum.push(num);
+    }
+    // mynum.push(number);
+
 })
-console.log(reduce);
+console.log(mynum);

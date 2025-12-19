@@ -80,6 +80,17 @@
 //     console.log("its not ")
 // }
 
-let str = prompt("please enter your string ");
-console.log(`orignal string : ${str}`);
-console.log(` string after trim :${str.trim()}`);
+// let str = prompt("please enter your string ");
+// console.log(`orignal string : ${str}`);
+// console.log(` string after trim :${str.trim()}`);
+
+
+let marks = [1,2,3,4,5,6,7];
+//  marks.push("8");
+// marks.pop(7)
+// marks.shift(1);
+// marks.unshift(0);
+// marks.splice(2,1);
+let newArr = marks.slice(1,3);
+// console.log(marks);
+console.log(newArr);

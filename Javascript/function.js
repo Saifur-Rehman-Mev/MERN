@@ -20,13 +20,14 @@
 // }
 // sum(5);
 
-let str = ["hello", " my", " name", " is", " saifur"]
+// let str = ["hello", " my", " name", " is", " saifur"]
 
-function concate(str) {
-        let result = " ";
-        for(let i=1; i<str.length; i++){
-            result += str[i];
-        }
-        console.log(result);
-}
-concate(str);
+// function concate(str) {
+//         let result = " ";
+//         for(let i=1; i<str.length; i++){
+//             result += str[i];
+//         }
+//         console.log(result);
+// }
+// concate(str);
+
