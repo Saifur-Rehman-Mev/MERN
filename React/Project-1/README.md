@@ -29,3 +29,11 @@ Only the changed part is updated in the Real DOM
 
 Virtual DOM makes web apps faster and more efficient 🚀
 That’s why React uses Virtual DOM.
+
+What are components ?
+
+components are resuable code which can be used to update any data with interfering 
+other data or states
+
+in short  codes are broken down into smaller and reusable parts are known as components 
+
